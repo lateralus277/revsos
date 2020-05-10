@@ -1,7 +1,6 @@
 
 /* SMARTPHONES */
 :root {
-   max-width: 500px;
    margin: 0;
    padding: 0;
 }
@@ -27,10 +26,14 @@
    bottom: 1rem;
    }
 
+   #landing .video-container {
+      height: 400px;
+   }
+
    .leyenda {
       line-height: 1.5rem;
       position: absolute;
-      top: 160px;
+      top: 220px;
       font-size: 1rem;
    }
    .btn {
@@ -38,7 +41,7 @@
       padding: 0.3;
       float: left;
       position: relative;
-      top: -40px;
+      top: -20px;
    }
 
    #loque .items {
@@ -58,6 +61,7 @@
   #hrhr {
      position: relative;
      top: 45px;
+     margin: 25px;
   }
 
   #contacto .container {
@@ -75,4 +79,9 @@
    right: 30px;
 }
 
+}
+
+@media(max-width: 406px) {
+   #nav-bar .logo{
+      font-size: 2rem;
 }
