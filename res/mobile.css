@@ -27,13 +27,13 @@
    }
 
    #landing .video-container {
-      height: 400px;
+      height: 450px;
    }
 
    .leyenda {
       line-height: 1.5rem;
       position: absolute;
-      top: 220px;
+      top: 200px;
       font-size: 1rem;
    }
    .btn {
@@ -83,5 +83,25 @@
 
 @media(max-width: 406px) {
    #nav-bar .logo{
-      font-size: 2rem;
+      font-size: 1.6rem;
+   }
+  
+   .leyenda {
+      top: 150px;
+      font-size: 1rem;
+   }
+
+   #hrhr {
+         position: relative;
+         top: 45px;
+         margin: 40px;
+      }
+
+      .btn  {
+         top: -30px;
+      }
+
+   #loque .container{
+      margin-top: -50px;
+   }
 }
